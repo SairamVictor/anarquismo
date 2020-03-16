@@ -1,0 +1,112 @@
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em; 
+    }
+.contenedor{
+    width: auto;
+    margin: auto;
+}
+.encabezado {
+    background:black;
+    overflow: hidden;
+    height: 90px;
+    box-shadow: 0 0 10px #070707;
+    position: relative;
+    text-align: center;
+}
+.encabezado nav {
+    float: right;
+}
+.encabezado nav ul {
+    margin: 0;
+	padding: 20px;
+    list-style: none;
+    
+}
+.encabezado nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+    list-style: none;
+}
+.encabezado nav ul li a{
+    margin-top: 13px;
+    display: block;
+    padding: 0px 30px 0px 30px;
+    font-size: medium;
+    height: 90px;
+    color: #fff;
+    text-decoration: none;
+    border-left: lpx
+}
+.encabezado nav ul li a:hover{
+    color: red;
+    margin: 0 auto;
+}
+.contenedorconcepto{
+    width: 1100px;
+    text-align: center;
+
+}
+#concepto{
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    float: left;
+}
+#concepto span{
+    font-weight: 700;
+}
+#imagenes{
+    float: left;
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px 10px 0px 30px;
+    margin-bottom: 30px;
+}
+#imagenescorrientes{
+    float: left;
+    padding: 60px 0px 30px 30px;
+    text-align: center;
+    width: 200px;
+}
+#imagenescorrientes h5{
+    padding-left: 70px;
+    width: 400px;
+}
+#principios{
+    text-align: center;
+}
+#arte{
+    text-align: justify;
+    margin: 0 auto;
+    margin-right: 10px;
+    padding: 0px 10px 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    float: left;
+}
+#video{
+    float: left;
+    width: 200px;
+    padding: 70px 20px 0px 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#pie {
+	background-color: #242223;
+	width: 100%;
+	height: 50px;
+	color: white;
+	text-align: center;
+    margin: 0 auto;
+	vertical-align:middle;
+    line-height:normal;
+    padding-bottom: 5px;
+    float: left;
+} 
+
